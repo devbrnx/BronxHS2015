@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="fr" class="no-js">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hermès Slider</title>
+    <meta name="description" content="Page d'Hèrmès"/>
+    <meta name="keywords" content="hermès luxe beauté slider contenu digital interactif parfums maquillage"/>
+    <meta name="author" content="Bronx Agence"/>
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" type="text/css" href="packages/jquery-ui/jquery-ui.min.css"/>
+    <link rel="stylesheet" type="text/css" href="packages/bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/component.css"/>
+    <link rel="stylesheet" type="text/css" href="packages/font-awesome/css/font-awesome.min.css"/>
+    <link rel="stylesheet" type="text/css" href="packages/font-awesome/css/font-awesome.min.css"/>
+    <link rel="stylesheet" type="text/css" href="packages/slick/slick.css"/>
+</head>
+
+<body>
+<div class="container-fluid">
+    <div class="col-lg-12">
+        <div class="row">
+            <div class="col-lg-2">
+                <h1 class="sr-only">Hermès</h1>
+
+                <div class="logo-hermès">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid no-gutters">
+    <!--Navigation-->
+    <div class="col-md-3 col-lg-2 no-gutters">
+        <nav class="navbar navbar-default ">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                        aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse" aria-expanded="false">
+                <canvas class="sommaire" width='40' height='150'></canvas>
+                <ul class="nav navbar-nav menu menu-slide">
+                    <li id="close">x Fermer</li>
+                    <li class="editio" data-link-id=" ">
+                        <a href=" " data-link-group="editio"> L'édito, l'équipe</a>
+                    </li>
+                    <li class="event" data-link-id="1">
+                        <a href=" " data-link-group="event-press"> 01 . Le Jardin de Monsieur Li</a></li>
+                    <li class="digital" data-link-id="4">
+                        <a href=" " data-link-group="digital-press">02 . Le parfum de la maison</a>
+                    </li>
+                    <li class="creation" data-link-id="7">
+                        <a href=" " data-link-group="creation-press">03 . Ouvertures</a>
+                    </li>
+                    <li class="nutshell" data-link-id=" ">
+                        <a href=" " data-link-group="nutshell">04 . En Bref</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="menu-icons">
+                <ul class="nav navbar-nav sub-menu">
+                    <hr>
+                    <li><a href="#"><i class="fa fa-print"></i></a></li>
+                    <li><a href="#"><i class="fa fa-envelope-o"></i></a></li>
+                    <li><a href="#"><i class="fa fa-download"></i></a></li>
+                    <li class="fullscr"><a href="#"><i class="fa fa-expand"></i></a></li>
+                </ul>
+            </div>
+        </nav>
+
+    </div>
+    <!--Navigation ends-->
+
+    <!--Main body-->
+    <div class="col-md-9 col-lg-10 main-panel">
+        <div class="row top-decorative hidden-xs hidden-sm">
+            <div class="col-md-11 col-lg-11 clearfix no-gutters">
+                <div class="top-left-decorator"></div>
+                <div class="top-right-decorator"></div>
+                <!-- <div class="centered-decorator"></div>--> <!--To replace-->
+            </div>
+        </div>
+
+        <div class="slick-content">
+            <!--Intro section-->
+            <section id="introduction" class="intro" data-anchor="intro-press">
+
+                <div class="row row-intro">
+                    <div class="col-md-7 col-lg-7 col-sm-6  presentation-page-left">
+                        <img src="img/Hermes_iPhone_Couverture_05.jpg" alt="hermès_femme_velo"/>
+                    </div>
+                    <div class="col-lg-4 col-md-3 col-sm-4 presentation-page-right">
+                        <h2 class=" negative-offset-4 presentation-page-title">LETTRE D'INFORMATION <span
+                                class="hash-title">#01</span></h2>
+
+                        <p>
+                            Du Service Communication <br> d'Hermès Parfum <br>
+                        </p>
+
+                        <p id="info-date">
+                            1<sup>er</sup> Semestre 2015
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="slide1" class="presentation edito" data-anchor="event-press">
+                <div class="row">
+                    <div class="col-lg-4 edito-col-1 col-md-5 col-xs-6">
+                        <h2>edito</h2>
+                        <span>Si l’on flânait ?</span>
+
+                        <p class="text-bold">
+                            Lorem ipsum dolor sit amet, <br/>
+                            consectetur adipiscing elit.<br/>
+                            Duis elementum massa in viverra <br/>
+                            tempus. Fusce ut nisl eget nulla<br/>
+                            aliquam tincidunt sed ut tellus.<br/>
+                            Fusce iaculis vestibulum purus non<br/>
+                            lobortis. Aliquam at venenatis leo, <br/>
+                            sed imperdiet risus.
+                        </p>
+
+                        <p>
+                            Etiam sagittis justo a sapien <br/>
+                            finibus, eu feugiat enim semper. <br/>
+                            Proin ornare, enim quis semper <br/>
+                            dapibus, velit enim accumsan risus, <br/>
+                            sed condimentum diam erat sed <br/>
+                            dui. Sed cursus mattis volutpat. <br/>
+                            Phasellus at pulvinar orci, at <br/>
+                            convallis nunc. In et felis lobortis, <br/>
+                            auctor nulla a, aliquet est. <br/>
+                            uncante tortor, venenatis ac <br/>
+                            neque at, congue fermentum odio. <br/>
+                            Suspendisse ac vehicula erat, <br/>
+                            id finibus nulla.
+                        </p>
+                    </div>
+                    <div class="col-lg-4 edito-col-2 col-md-4 col-xs-6">
+                        <h2>L' équipe</h2>
+
+                        <h3>CORRINE PEREZ</h3>
+
+                        <p>
+                            Directrice de la Communication <br/>
+                            corinne.perez@hermes.com
+                        </p>
+
+                        <h3>LAURIE ABADIE</h3>
+
+                        <p>
+                            Responsable des opérations <br/>
+                            de communication <br/>
+                            laure.abadie@hermes.com
+                        </p>
+
+                        <h3>ANNE DE LALUN</h3>
+
+                        <p>
+                            Responsable presse <br/>
+                            anne.delalun@hermes.com
+                        </p>
+
+                        <h3>CHARLOTTE DE LAPPARENT</h3>
+
+                        <p>
+                            Attaché de presse <br/>
+                            charlotte.delapparent@hermes.com
+                        </p>
+                    </div>
+                    <div class="col-lg-3 edito-col-3 col-md-3 col-xs-4">
+                        <h3>STEFANIA BRUNI</h3>
+
+                        <p>
+                            Responsable média france <br/>
+                            et international <br/>
+                            stefania.bruni@hermes.com
+                        </p>
+
+                        <h3>AURELIE ENOU-GENEVAZ</h3>
+
+                        <p>
+                            Responsable média france <br/>
+                            et international <br/>
+                            stefania.bruni@hermes.com
+                        </p>
+
+                        <h3>LAURA KERDRAON</h3>
+
+                        <p>
+                            Coordinatrice publicité média <br/>
+                            laura.kerdraon@hermes.com
+                    </div>
+                </div>
+            </section>
+
+            <section id="slide2" class="presentation" data-anchor="event-press">
+
+                <div class="row ">
+                    <!--<div class="col-md-11 main">
+                        <div class="row  img-right">
+                            <div class="col-lg-6 img-left">
+                                <img class="" src="img/HERMES-JardinLi_03.jpg" alt="water"/>
+                            </div>
+                            <div class="col-lg-6">
+                                <h2 class="inter-title">01 .</h2>
+                                <span>LE JARDIN DE MONSIEUR LI</span>
+                            </div>
+                        </div>
+                    </div>-->
+                </div>
+            </section>
+
+            <section id="slide3" class="presentation " data-anchor="event-press">
+                <div class="row">
+                    <div class="col-lg-12 ">
+                        <h2>Le jardin de monsieur li</h2>
+                        <span class="sub-title">dévoilé à la presse</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 hidden-xs hidden-sm no-gutters">
+                        <!-- <img class="li-perfume img-responsive" src="img/perfume-bottle.jpg" alt="parfum-li">-->
+                    </div>
+                    <div class="col-lg-8 no-gutters">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-4 col-xs-12 jardin-li-1 no-gutters">
+                                <p class="text-bold">
+                                    Les 10 et 11 février, la presse française et <br>
+                                    internationale était réunie à Paris pour le <br>
+                                    lancement du parfum-nouvelle Le Jardin de<br>
+                                    Monsieur Li . Un parfum jardin créé par<br>
+                                    Jean-Claude Elléna, inspiré par la Chine et le<br>
+                                    thème annuel de la maison Hermès.<br>
+                                </p>
+
+                                <p>
+                                    Comme écrin à ce cinquième opus de la<br>
+                                    collection, une Pagode au cœur d'un Paris<br>
+                                    haussmannien, la maison Loo, demeure d’un<br>
+                                    marchand d’art du début du XXème siècle, qui<br>
+                                    consacra sa vie à faire dialoguer au travers de<br>
+                                    l'art son pays d’origine avec son pays d’adoption.<br>
+                                </p>
+
+                                <p>
+                                    Catherine Fulconis et Jean-Claude Ellena y ont<br>
+                                    présenté la genèse et l’histoire créative du<br>
+                                    parfum, accompagnés d'un complice, le peintre<br>
+                                    Li Xin, auteur du paysage d'encre outre-gris<br>
+                                    qui vient en ceindre l’étui.<br>
+                                </p>
+
+                                <p>
+                                    Au cours de quatre sessions, nos 120<br>
+                                    journalistes ont été conviés à flâner dans un<br>
+                                    jardin imaginaire, récréé dans cet espace clos.<br>
+                                </p>
+                            </div>
+                            <div class="col-lg-6 col-md-4 col-xs-12 jardin-li-2">
+                                <img src="img/HERMES-LI-page-1_06.jpg" alt="pictogramme-player">
+
+                                <h3>Retour sur l'évènement presse</h3>
+
+                                <p>
+                                    Un monde miniature, à l'instar du jardin chinois,<br>
+                                    à la nature onirique et méditative, ressenti au<br>
+                                    travers d'expériences poétiques successives<br>
+                                    et de saynètes inattendues. Mystère de<br>
+                                    Mademoiselle Li cultivant son jardin, souffleurs<br>
+                                    de rêve aux mots caressants, eaux vibrantes aux<br>
+                                    éclats d'encre, musiques mêlées, entre Guzheng<br>
+                                    et flûte, murs végétaux invitant à la découverte<br>
+                                    des matières et des inspirations, jusqu'à la<br>
+                                    révélation du parfum, enserré dans des<br>
+                                    montagnes miniatures et offert en brins<br>
+                                    odorants... La Pagoda accueillait ces jours-là<br>
+                                    son nouvel habitant : un parfum au jasmin<br>
+                                    surprenant, rendu "clair" et presque transparent<br>
+                                    par l'eau, et aux échos de sève, de kumquat<br>
+                                    et de pierres mouillées.
+                                </p>
+                            </div>
+                            <div class="col-lg-12 col-md-8 col-xs-12 jardin-li-3 no-gutters">
+                                <span> <i>-&gt;</i> Un lancement local s’est également déroulé le 18 mars à Madrid, dans l’enceinte de la Fundacion Pons. </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="slide4" class="presentation " data-anchor="event-press">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <span class=" rotated-text">Retour en image sur l'évènement presse</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-11 no-gutters">
+                        <img class="jardin-li-video-big" src="img/HERMES-JardinLi-3_03.jpg" alt=""/>
+                    </div>
+                </div>
+            </section>
+
+            <section id="slide5" class="presentation" data-anchor="digital-press">
+                <div class="row">
+                    <div class="col-lg-11">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12">
+                                <h2>LES CAMPAGNES</h2>
+                            </div>
+                            <div class="col-lg-6 media-plan-col-1 col-lg-offset-1">
+                                <img src="img/HERMES-JardinLi-4_03.jpg" alt=""/>
+                            </div>
+                            <div class="col-lg-4 media-plan-col-2 col-md-12">
+                                <p>
+                                    Le plan media s’est déployé début Avril<br>
+                                    en France, en Allemagne, au Benelux, <br>
+                                    à Hong Kong, au Japon et en Corée :<br>
+                                    Affichage, bannières, presse, encarts <br>
+                                    parfumés… <br>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row map-image">
+                            <div class="col-lg-3 col-lg-offset-1 focus-col-1">
+                                <h3>focus</h3>
+                                <span>FRANCE</span>
+
+                                <p>
+                                    campagne presse <br/>
+                                    <span>4,42 Millions</span> <br/>
+                                    de contacts générés
+                                </p>
+
+                                <p>
+                                    campagne encarts parfumés <br/>
+                                    <span>1 033 964 </span> encarts<br/>
+                                </p>
+
+                                <p>
+                                    campagne digitale <br/>
+                                    <span>30.2 Millions</span> de contacts <br/>
+                                </p>
+                            </div>
+
+                            <div class="col-lg-4 focus-col-2">
+                                <h3>focus</h3>
+                                <span> ALLEMAGNE</span>
+
+                                <p>
+                                    campagne presse <br/>
+                                    <span>1,35 Millions</span> <br/>
+                                    de contacts générés <br/>
+                                </p>
+
+                                <p>
+                                    campagne encarts parfumés <br/>
+                                    <span>928 077</span> encarts<br/>
+
+                                </p>
+
+                                <p>
+                                    campagne digitale <br/>
+                                    <span>9.4 Millions</span> de contacts <br/>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="slide6" class="presentation" data-anchor="digital-press">
+                <div class="row">
+                    <div class="col-lg-11 candle-background">
+                        <div class="row">
+                            <div class="col-lg-12 ">
+                                <h2>Les quêtes intérieures</h2>
+                                <span class="sub-title">du parfum de la maison</span>
+                            </div>
+                        </div>
+                        <div class="row quest-first-row">
+                            <div class="col-lg-7 col-md-6 maison-bloc-1 col-lg-offset-1">
+                                <img src="img/HERMES-LI-page-1_06.jpg" alt="pictogramme-player">
+
+                                <h3>Retour sur l'évènement presse parisien</h3>
+
+                                <p>
+                                    La nouvelle collection du Parfum de la maison a été présentée à la <br>
+                                    presse française et internationale le 13 octobre dernier. Une « folie »<br>
+                                    du 18ème, bâtie sur une glacière XIVe et rénovée dans un style<br>
+                                    contemporain, avait été choisie pour accueillir les invités.<br>
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="row origami-background">
+                            <div class="col-lg-6 col-md-6 col-md-offset-6 maison-bloc-2 col-lg-offset-6">
+                                <p> Une expérience autour de 5 mises en scène, inspirées des <br>
+                                    rêveries de Céline Ellena, était proposée à la presse, révélant le<br>
+                                    parfum et son imaginaire. À l’entrée de chacun des univers, les <br>
+                                    journalistes se voyaient remettre un bâtonnet de cire au parfum <br>
+                                    des 5 rêveries: Des Pas Sur La Neige, Temps De Pluie, Fenêtre <br>
+                                    ouverte, Champ Libre, A cheval !. Sans parcours imposé, les<br>
+                                    journalistes étaient invités à pénétrer dans ses décors et <br>
+                                    expérimenter le passage du réel à l’imaginaire. Une forme de <br>
+                                    chasse aux rêveries, avec pour guides leurs sens et leur nez. <br>
+                                    <br>
+                                    Ce n’est qu’après cette déambulation libre, que les journalistes <br>
+                                    étaient conviés à pénétrer dans la glacière transformée en agora<br>
+                                    pour l’occasion. Sous une voûte circulaire facettée et au-dessus<br>
+                                    d’un puits profond de 15 mètres, la collection était enfin dévoilée<br>
+                                    par Catherine Fulconis, Président d’Hermès Parfums, Céline<br>
+                                    Ellena, parfumeur dédié à ce nouveau territoire, et Guillaume<br>
+                                    Bardet , designer.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="slide7" class="presentation " data-anchor="event-press">
+
+                <div class="row">
+                    <div class="col-lg-4">
+                        <span class=" rotated-text">Retour en image sur l'évènement presse</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-11 no-gutters">
+                        <img class="jardin-li-video-big" src="img/HERMES-JardinLi-3_03.jpg" alt=""/>
+                    </div>
+                </div>
+
+            </section>
+
+            <section id="slide8" class="presentation" data-anchor="digital-press">
+                <div class="row">
+                    <div class="col-lg-11 nyc-first-row">
+                        <div class="row">
+                            <div class="col-lg-6 nyc-bloc-1">
+                                <h2>Une maison</h2>
+                                <span class="sub-title">à new-york</span>
+
+                                <p>-&gt;Lancement presse aux États-unis</p>
+
+                                <p>C’est dans une vaste et singulière Town House <br>
+                                    de 5 étages, située entre la 64e et la 5e avenue,<br>
+                                    que la presse américaine a été invitée à<br>
+                                    découvrir les 5 univers du Parfum de la<br>
+                                    Maison. Céline Ellena, Guillaume Bardet et<br>
+                                    Corinne Perez, directrice de la communication<br>
+                                    d’Hermès Parfums, ont accueilli<br>
+                                    une cinquantaine de journalistes au cours de<br>
+                                    4 déambulations.
+                                </p>
+                            </div>
+                            <div class="col-lg-6 nyc-bloc-2">
+                                <span class="sub-title">Le press kit</span>
+                            </div>
+                        </div>
+                        <div class="row nyc-second-row">
+                            <div class="col-lg-7 nyc-bloc-3">
+                                <img class="img-responsive" alt="balcon" src="img/Balcon.png">
+
+                            </div>
+                            <div class="col-lg-4 col-lg-offset-1 nyc-bloc-4">
+                                <p>
+                                    Comme un songe échappé d’une feuille de<br>
+                                    papier pliée ou d’une céramique, le Parfum de<br>
+                                    la maison prend la forme d’un rêve éveillé…<br>
+                                    Dans le dossier de presse du Parfum de la<br>
+                                    Maison, formes, textes et couleurs se révélent<br>
+                                    tour à tour...<br>
+                                    <br>
+                                    Glanés au gré des déambulations dans les<br>
+                                    différentes pièces de la maison, des bâtonnets<br>
+                                    parfumés ont été offerts aux journalistes dans<br>
+                                    un écrin dédié.<br>
+                                </p>
+
+                                <p>
+                                    -&gt; Un lancement local s’est également<br>
+                                    déroulé en Espagne en novembre dernier.<br>
+                                    La boutique Hermès Parfums de Madrid a<br>
+                                    accueilli une soixantaine de journalistes.<br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="slide9" class="presentation" data-anchor="creation-press">
+                <div class="row">
+                    <div class="col-lg-11">
+                        <div class="row">
+                            <div class="col-lg-6 press-results-1">
+                                <h2>Best-of des premières</h2>
+                                <span class="sub-title">retombées de presse</span>
+
+                                <div class="magazines">
+                                    <img src="img/mag_03.jpg" alt="magazine"/>
+                                </div>
+                                <div class="download-content">
+                                    <img src="img/down-button.png" alt=""/><a href="#">TELECHARGER LES ARTICLES</a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 press-results-2">
+                                <h2>Réseaux sociaux</h2>
+                                <span class="sub-title">Esprit de la maison ,<br/>est tu là ?</span>
+
+                                <div class="social-text">
+                                    <p>
+                                        Le lancement événementiel <br/>
+                                        du Parfum de la Maison <br/>
+                                        a bien été relayé sur les réseaux sociaux.
+                                    </p>
+                                </div>
+                                <div class="social-cloud">
+                                    <img src="img/social-cloud_03.jpg" alt="hermès social networks"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="slide10" class="presentation" data-anchor="creation-press">
+                <div class="row">
+                    <div class="col-lg-11">
+                        <div class="row">
+                            <div class="col-lg-6 korea-bloc-1">
+                                <h2>Au pays </h2>
+                                <span class="sub-title">du matin calme</span>
+
+                                <p class="text-bold">
+                                    Un nouveau partenariat commercial avec le groupe <br>
+                                    Shinsegae, la parution en coréen du Journal d’un <br>
+                                    parfumeur, le lancement presse du Jardin de <br>
+                                    Monsieur Li : Trois belles raisons pour Jean-Claude <br>
+                                    Ellena et l’équipe Communication d’Hermès <br>
+                                    Parfums de faire le voyage en Corée du Sud.
+                                </p>
+
+                                <p>
+                                    Depuis le mois de mars, le mall Shinsegae situé dans <br>
+                                    le quartier de Gangnam à Séoul abrite un nouvel <br>
+                                    espace dédié aux Parfums Hermès. Pour célébrer ce <br>
+                                    partenariat pérenne avec le premier groupe de <br>
+                                    grands magasins coréens, Jean-Claude Ellena s’est <br>
+                                    rendu en Corée. Au programme : Rencontres avec de <br>
+                                    grandes clientes, entretiens avec la presse coréenne, <br>
+                                    et conférence à l’Institut français autour de la sortie <br>
+                                    coréenne de son ouvrage Le Journal d’un parfumeur.
+                                </p>
+
+                                <p>
+                                    C’est dans les salons du club The Orion, <br>
+                                    métamorphosés pour l’occasion en une <br>
+                                    somptueuse bibliothèque olfactive, que <br>
+                                    les journalistes ont pu découvrir Le <br>
+                                    Jardin de Monsieur Li, et dialoguer <br>
+                                    avec Jean-Claude Ellena.
+                                </p>
+                            </div>
+                            <div class="col-lg-6 korea-bloc-2">
+                                <img src="img/korea_03.jpg" alt="slide corée"/>
+                            </div>
+                            <div class="col-lg-6  korea-bloc-3">
+                                <img src="img/korea_06.jpg" alt="video hermès korée"/>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section id="slide11" class="presentation" data-anchor="creation-press">
+                <div class="row">
+                    <div class="col-lg-11">
+                        <div class="row sanghyun-row-1">
+                            <div class="col-lg-12">
+                                <h2>La poésie de </h2>
+                                <span class="sub-title">sanghyun jean </span>
+                            </div>
+                            <div class="col-lg-6 sangyhun-1">
+                                <img src="img/sanghyun_03.jpg" alt=""/>
+                            </div>
+                            <div class="col-lg-6 sangyhun-2">
+                                <p>
+                                    Graphic designer coréen installé à Paris <br>
+                                    depuis 2008, Sanghyun Jean a participé à <br>
+                                    l’un des ateliers de création organisés par <br>
+                                    l’institut Français de la Mode en partenariat <br>
+                                    avec la maison Hermès. Ses œuvres, <br>
+                                    inspirées par les 7 Hermessences, (et<br>
+                                    réalisées en collaboration avec la <br>
+                                    photographe Cécile Bortoletti) ont été <br>
+                                    offertes sous forme de portfolio aux <br>
+                                    journalistes venus rencontrer Jean-Claude <br>
+                                    Ellena. Une invitation à la contemplation.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row sanghyun-row-2">
+                            <div class="col-lg-12 text-right">
+                                <h2>Les autres </h2>
+                                <span>ouvertures</span>
+                            </div>
+                            <div class="col-lg-3">
+                                <img src="img/sanghyun_07.jpg" alt=""/>
+                            </div>
+                            <div class="col-lg-3">
+                                <h3>PARIS</h3>
+                                <span>Le Bon Marché</span>
+
+                                <p>
+                                    L’ouverture événementielle, en <br>
+                                    décembre dernier, de l’espace dédié <br>
+                                    aux Parfums Hermès a été copilotée<br>
+                                    par le service de la communication <br>
+                                    d’Hermès Parfums et les équipes<br>
+                                    du Bon Marché.
+                                </p>
+                            </div>
+                            <div class="col-lg-3">
+                                <h3>PARIS</h3>
+                                <span>Franck & Fils (Paris 16e)</span>
+
+                                <p>Un espace éphémère Hermès <br>
+                                    Parfums a ouvert ses portes<br>
+                                    chez Franck & Fils le 18 mai<br>
+                                    dernier.
+                                </p>
+                            </div>
+                            <div class="col-lg-3">
+                                <h3>MOSCOU</h3>
+                                <span>TSUM</span>
+
+                                <p>Inauguration le 25 juin</p>
+
+                                <h3>NEW-YORK</h3>
+                                <span>WFC</span>
+
+                                <p>Inauguration le 19 août</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <section id="slide12" class="presentation" data-anchor="creation-press">
+                <div class="row">
+                    <div class="col-lg-11">
+                        <div class="row bref-row-1">
+                            <div class="col-lg-1">
+
+                            </div>
+                            <div class="col-lg-5">
+
+                            </div>
+                            <div class="col-lg-6">
+
+                            </div>
+                        </div>
+
+                        <div class="row bref-row-2">
+                            <div class="col-lg-6">
+                                <div class="row">
+                                    <div class="col-lg-3"></div>
+                                    <div class="col-lg-3"></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="row bottom-decorative hidden-xs hidden-sm">
+            <div class="col-md-11 col-lg-11 clearfix no-gutters">
+                <div class="bottom-left-decorator"></div>
+                <div class="bottom-right-decorator"></div>
+            </div>
+
+        </div>
+    </div>
+    <div class="slider-navigation">
+        <!--<a href="#">-->
+        <div class='prev-arrow-slide'></div>
+        <!--  </a>-->
+
+        <div class='next-arrow-slide'></div>
+    </div>
+    <!--<div class="row bottom-decorative hidden-xs hidden-sm">
+        <div class="col-md-11 col-lg-11 clearfix no-gutters">
+            <div class="bottom-left-decorator"></div>
+            <div class="bottom-right-decorator"></div>
+        </div>
+
+    </div>-->
+</div>
+<!--end Main body-->
+
+
+<!--</div>-->
+
+
+<script src="packages/jquery/jquery-2.1.3.min.js"></script>
+<script src="packages/jquery/screenfull.min.js"></script>
+<script src="packages/jcanvas/jcanvas.min.js"></script>
+<script src="packages/bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="packages/slick/slick.min.js"></script>
+<script type="text/javascript" src="packages/slideout/slideout.min.js"></script>
+<script src="js/component.js"></script>
+
+
+</body>
+</html>
