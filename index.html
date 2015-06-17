@@ -9,7 +9,6 @@
     <meta name="keywords" content="hermès luxe beauté slider contenu digital interactif parfums maquillage"/>
     <meta name="author" content="Bronx Agence"/>
     <link rel="shortcut icon" href="../favicon.ico">
-    <link rel="stylesheet" type="text/css" href="packages/jquery-ui/jquery-ui.min.css"/>
     <link rel="stylesheet" type="text/css" href="packages/bootstrap/css/bootstrap.min.css"/>
     <link rel="stylesheet" type="text/css" href="css/component.css"/>
     <link rel="stylesheet" type="text/css" href="packages/font-awesome/css/font-awesome.min.css"/>
@@ -35,7 +34,7 @@
     <!--Navigation-->
     <div class="col-md-3 col-lg-2 no-gutters">
         <nav class="navbar navbar-default ">
-            <div class="navbar-header">
+            <div class="navbar-header nav-to-remove">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
                         aria-expanded="false" aria-controls="navbar">
                     <span class="sr-only">Toggle navigation</span>
@@ -80,6 +79,17 @@
 
     <!--Main body-->
     <div class="col-md-9 col-lg-10 main-panel">
+        <nav class="to-hide navbar navbar-default toggle-button">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                        aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+        </nav>
         <div class="row top-decorative hidden-xs hidden-sm">
             <div class="col-md-11 col-lg-11 clearfix no-gutters">
                 <div class="top-left-decorator"></div>
@@ -665,25 +675,74 @@
                     <div class="col-lg-11">
                         <div class="row bref-row-1">
                             <div class="col-lg-1">
-
+                                <h3 class="bref-title">AWARDS</h3>
+                                <img src="img/HERMES-Bref_03.jpg" alt=""/>
                             </div>
                             <div class="col-lg-5">
+                                <p class="text-bold">Fragrance Foundation a récompensé<br/>
+                                    Jean-Claude Ellena en lui remettant<br/>
+                                    un award d’honneur, ainsi que l’award<br/>
+                                    du Meilleur parfum de niche pour<br/>
+                                    Cuir d’Ange.<br/>
+                                </p>
 
+                                <p>
+                                    En 2014, Jour d’Hermès avait remporté<br/>
+                                    le Marie Claire international perfume<br/>
+                                    award, le Condenast Traveller award,<br/>
+                                    le Prix des Professionnels et du<br/>
+                                    Meilleur parfum féminin aux FIFI<br/>
+                                    awards, tandis que l’Eau de Narcisse<br/>
+                                    Bleu avait remporté l’award Olfactrum<br/>
+                                    du meilleur parfum mixte.<br/>
+
+                                </p>
                             </div>
-                            <div class="col-lg-6">
+                            <div class="col-lg-6 no-gutters">
+                                <h3 class="bref-title">TERRE D'HERM&Egrave;S</h3>
 
+                                <p>
+                                    La bâche Terre d’Hermès est toujours en place à Neuilly, offrant une<br/>
+                                    belle visibilité à la marque.
+                                </p>
+                                <img src="img/HERMES-Bref_06.jpg" alt=""/>
                             </div>
                         </div>
 
                         <div class="row bref-row-2">
                             <div class="col-lg-6">
                                 <div class="row">
-                                    <div class="col-lg-3"></div>
-                                    <div class="col-lg-3"></div>
+                                    <div class="col-lg-10">
+                                        <h3 class="bref-title">JOUR D’HERM&Egrave;S GARD&Eacute;NIA</h3>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <!--<h3 class="bref-title">JOUR D’HERM&Egrave;S GARD&Eacute;NIA</h3>-->
+
+                                        <p>
+                                            Jour d’Hermès Gardénia<br/>
+                                            est actuellement<br/>
+                                            en campagne en Italie.<br/>
+                                            <br/><br/>
+                                            Campagne Presse, PLV<br/>
+                                            et e-mailing ont été<br/>
+                                            orchestrés par le service<br/>
+                                            Media & Advertising.<br/>
+                                        </p>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <img src="img/HERMES-Bref_11.jpg" alt=""/>
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-lg-6">
+                                <h3 class="bref-title">EAU DES MERVEILLES <br/> 100% DIGITAL</h3>
 
+                                <p>
+                                    Nos contenus poétiques et créatifs confirment leur succès sur le web.<br/>
+                                    Retour chiffré sur la campagne 100% digitale lancée à l’occasion des<br/>
+                                    10 ans de l’Eau des merveilles.<br/>
+                                </p>
+                                <img src="img/HERMES-Bref_13.jpg" alt=""/>
                             </div>
                         </div>
                     </div>
@@ -699,24 +758,17 @@
         </div>
     </div>
     <div class="slider-navigation">
-        <!--<a href="#">-->
         <div class='prev-arrow-slide'></div>
-        <!--  </a>-->
-
         <div class='next-arrow-slide'></div>
     </div>
-    <!--<div class="row bottom-decorative hidden-xs hidden-sm">
-        <div class="col-md-11 col-lg-11 clearfix no-gutters">
-            <div class="bottom-left-decorator"></div>
-            <div class="bottom-right-decorator"></div>
-        </div>
 
-    </div>-->
 </div>
 <!--end Main body-->
 
+<!--
 
-<!--</div>-->
+</div>
+-->
 
 
 <script src="packages/jquery/jquery-2.1.3.min.js"></script>
@@ -726,6 +778,8 @@
 
 <script type="text/javascript" src="packages/slick/slick.min.js"></script>
 <script type="text/javascript" src="packages/slideout/slideout.min.js"></script>
+<script type="text/javascript" src="packages/enquire/enquire.min.js"></script>
+
 <script src="js/component.js"></script>
 
 
